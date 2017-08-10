@@ -70,6 +70,12 @@ nav
     text-decoration: none;
 }
 
+.site-menu ul li a:hover,
+.site-menu ul li a.active
+{
+    color: #4aaaa7;
+}
+
 #seperator
 {
     color: #777777;
@@ -141,7 +147,7 @@ p
 {
     float: left;
     padding: 0 20px 20px 0;
-    width: 50%;
+    width: 33%;
 }
 
 #social-buttons

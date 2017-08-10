@@ -18,7 +18,7 @@
                 <li id="seperator">|</li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li id="seperator">|</li>
-                <li id="end"><a href="contact.html">Contact</a></li>
+                <li id="end"><a class="active" href="contact.html">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -30,7 +30,7 @@
             <div class="main-content">
                 <h1>Contact</h1>
                 <hr>
-                <form>
+                <form action="mail.php" method="POST">
                     <p>Name</p>
                     <input type="text" name="name"></input>
 
@@ -39,9 +39,9 @@
 
                     <p>Message</p>
                     <textarea name="message"></textarea>
-
-                    <button>Submit</button>
-
+                    <form action="mail.php" method="POST">
+                    <input type="submit" value="Send">
+                    <button type="submit">Submit</button>
                 </form>
             </div>
         </div>
@@ -51,10 +51,9 @@
                 <h2>Connect with me</h2>
                 <hr>
                 <div id="social-buttons">
-                    <a href="#"><img src="assets/images/github.png"/></a>
-                    <a href="#"><img src="assets/images/linkedin.png"/></a>
-                    <a href="#"><img src="assets/images/stackoverflow.png"/></a>
-                </div>
+                    <a href="https://github.com/daytonmills"><img src="assets/images/github.png"/></a>
+                    <a href="https://www.linkedin.com/in/dayton-mills-25a8a312b/"><img src="assets/images/linkedin.png"/></a>
+                    <a href="https://stackoverflow.com/users/3185447/dayton?tab=profile"><img src="assets/images/stackoverflow.png"/></a>                </div>
             </div>
         </div>
     </div>
